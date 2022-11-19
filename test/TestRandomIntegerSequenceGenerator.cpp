@@ -11,9 +11,9 @@ namespace StreamLineSender {
     //     REQUIRE(100 == list.size());
     // }
 
-    // bool IsValueInRange(int start, int end, int value) {
-    //     return (value >= start && value <= end);
-    // }
+    bool IsValueInRange(int start, int end, int value) {
+        return (value >= start && value <= end);
+    }
 
     // TEST_CASE("Verify numbers generated are in range") {
     //     RandomIntegerSequenceGenerator generator;
