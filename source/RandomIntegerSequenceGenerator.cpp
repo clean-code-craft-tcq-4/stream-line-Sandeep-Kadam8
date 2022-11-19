@@ -1,7 +1,5 @@
-#incldue "RandomIntegerSequenceGenerator.h"
+#include "RandomIntegerSequenceGenerator.h"
 #include <random>
-#include <stdlib.h>
-#include <time.h>
 
 namespace StreamLineSender {
 
