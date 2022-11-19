@@ -18,7 +18,7 @@ public:
     std::string GetParameterUnit() {
         return m_parameterUnit;
     }    
-    DataType GetParameterList() const {
+    std::vector<DataType> GetParameterList() const {
         return list;
     }
     void addItems(const std::vector<DataType>& items) {
