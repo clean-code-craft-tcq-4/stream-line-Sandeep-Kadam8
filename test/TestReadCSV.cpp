@@ -4,6 +4,6 @@
 
 namespace StreamLineSender {
     TEST_CASE("Object creation") {
-        CHECK_THROWS(ReadCSV csv);
+        CHECK_THROWS(ReadCSV csv{"testFile"});
     }
 }
