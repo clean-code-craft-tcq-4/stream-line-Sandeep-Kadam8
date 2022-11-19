@@ -3,7 +3,7 @@
 
 namespace StreamLineSender {
 
-    RandomIntegerSequenceGenerator::Generate(std::vector<int> &list, int RangeBegin, int RangeEnd, int count) {
+    void RandomIntegerSequenceGenerator::Generate(std::vector<int> &list, int RangeBegin, int RangeEnd, int count) {
         auto offset = RangeEnd - RangeBegin;
         list.resize(count);
         const auto &getRandomNumber = std::bind(&RandomIntegerSequenceGenerator::GetRandomNumber,
