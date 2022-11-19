@@ -21,8 +21,11 @@ public:
     DataType GetParameterList() const {
         return list;
     }
-    void addItem(const DataType &) {
-        list.push_back();
+    void addItems(const std::vector<DataType>& items) {
+        list.insert(list.end(), items.begin(), items.end());
+    }
+    void addItem(const DataType &item) {
+        list.push_back(item);
     }
 private:
     std::string m_parameterName, m_parameterUnit;
