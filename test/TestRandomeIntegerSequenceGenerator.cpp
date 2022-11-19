@@ -1,4 +1,4 @@
-#include "../source/RandomeIntegerSequenceGenerator.h"
+#include "../source/RandomIntegerSequenceGenerator.h"
 #include <vector>
 
 namespace StreamLineSender {
