@@ -12,4 +12,24 @@ TEST_CASE("create a sensor parameter object") {
     REQUIRE(unit == temp.GetParameterUnit());
 }
 
+TEST_CASE("Add Item") {
+    std::string parameter = "temperature";
+    std::string unit = "celsius";
+    SensorParameterList<int> temp(parameter, unit);
+
+    temp.addItem(12);
+
+    REQUIRE(1 == temp.GetParameterList().size());
+}
+
+TEST_CASE("Add Items") {
+    std::string parameter = "temperature";
+    std::string unit = "celsius";
+    SensorParameterList<int> temp(parameter, unit);
+
+    temp.addItems(12, 34, 56);
+
+    REQUIRE(3 == temp.GetParameterList().size());
+}
+
 }
