@@ -1,6 +1,7 @@
 #include "RandomIntegerSequenceGenerator.h"
 #include <random>
 #include <functional>
+#include <algorithm>
 
 namespace StreamLineSender {
 
