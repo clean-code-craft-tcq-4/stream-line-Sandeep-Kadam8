@@ -3,5 +3,5 @@
 #include "../source/SensorParameterList.h"
 
 TEST_CASE("create a sensor parameter object") {
-    SensorParameter<int> p("temp", "celsius");
+    SensorParameterList<int> p("temp", "celsius");
 }
