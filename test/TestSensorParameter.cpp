@@ -2,7 +2,7 @@
 #include "catch.hpp"
 #include "../source/SensorParameterList.h"
 
-using StreamLineSender;
+using namespace StreamLineSender;
 
 TEST_CASE("create a sensor parameter object") {
     SensorParameterList<int> p("temp", "celsius");
