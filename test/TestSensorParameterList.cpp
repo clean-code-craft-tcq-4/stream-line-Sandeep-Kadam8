@@ -27,7 +27,7 @@ TEST_CASE("Add Items") {
     std::string unit = "celsius";
     SensorParameterList<int> temp(parameter, unit);
 
-    temp.addItems(12, 34, 56);
+    temp.addItems({12, 34, 56});
 
     REQUIRE(3 == temp.GetParameterList().size());
 }
