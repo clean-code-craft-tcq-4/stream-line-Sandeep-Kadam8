@@ -2,7 +2,7 @@
 
 namespace StreamLineSender {
 
-SensorParameterList::SensorParameterList(const std::string& parameterName, const std::string& parameterUnit)
+SensorParameterList<DataType>::SensorParameterList(const std::string& parameterName, const std::string& parameterUnit)
     :m_parameterName{parameterName}, m_parameterUnit{parameterUnit}
 {
 
