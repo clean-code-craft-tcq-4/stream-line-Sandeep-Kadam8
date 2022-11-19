@@ -1,8 +1,8 @@
 #include "catch.hpp"
-#include "../source/ReadCSV.h"
+#include "../source/CsvReader.h"
 
 namespace StreamLineSender {
     TEST_CASE("Object creation") {
-        ReadCSV csv("testFile.csv");
+        CsvReader reader;
     }
 }
