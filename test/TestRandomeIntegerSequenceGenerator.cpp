@@ -10,7 +10,7 @@ namespace StreamLineSender {
         REQUIRE(100 == list.size());
     }
 
-    bool IsValueInRange(7int start, int end, int value) {
+    bool IsValueInRange(int start, int end, int value) {
         return (value >= start && value <= end);
     }
 
