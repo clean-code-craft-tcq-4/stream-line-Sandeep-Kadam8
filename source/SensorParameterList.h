@@ -1,4 +1,7 @@
 #include <vector>
+#ifndef SENSOR_PARAMETER_LIST
+#define SENSOR_PARAMETER_LIST
+
 #include <string>
 
 namespace StreamLineSender {

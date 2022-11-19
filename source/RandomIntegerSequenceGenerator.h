@@ -1,10 +1,11 @@
+#ifndef RANDOM_INTEGER_SEQUENCE_GENERATOR
+#define RANDOM_INTEGER_SEQUENCE_GENERATOR
+
 #include <vector>
 
 namespace StreamLineSender {
     class RandomIntegerSequenceGenerator {
     public:
-        RandomIntegerSequenceGenerator() = default;
-        ~RandomIntegerSequenceGenerator() = default;
         /*
             Generate randome integer numbers within the given range and put it given list.
             @param list vector of integer to be filled with random numbers
