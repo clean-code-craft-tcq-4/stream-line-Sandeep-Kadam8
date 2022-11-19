@@ -5,12 +5,19 @@ namespace StreamLineSender {
 
 template <class DataType>
 class SensorParameterList {
-public:
-    SensorParameterList(const std::string& parameterName, const std::string& parameterUnit);
-    
-    std::string GetParameterName();
-    std::string GetParameterUnit();
-    
+public:   
+    SensorParameterList(const std::string& parameterName, const std::string& parameterUnit)
+        :m_parameterName{parameterName}, m_parameterUnit{parameterUnit}
+    {
+
+    }
+
+    std::string GetParameterName() {
+        return m_parameterName;
+    }
+    std::string GetParameterUnit() {
+        return m_parameterUnit;
+    }    
     DataType GetParameterList() const {
         return list;
     }
