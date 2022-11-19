@@ -3,7 +3,7 @@
 
 namespace StreamLineSender {
 
-template <type DataType>
+template <class DataType>
 class SensorParameterList {
 public:
     SensorParameterList(const std::string& parameterName, const std::string& parameterUnit);
