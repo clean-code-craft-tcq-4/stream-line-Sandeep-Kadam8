@@ -2,6 +2,7 @@
 #include <vector>
 
 namespace StreamLineSender {
+    
     TEST_CASE("Generate random integer numbers check size") {
         RandomIntegerSequenceGenerator generator;
         std::vector<int> list;
