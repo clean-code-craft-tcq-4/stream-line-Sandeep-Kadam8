@@ -18,3 +18,5 @@ namespace StreamLineSender {
         int GetRandomNumber(int RangeBegin, int offset);
     };
 }
+
+#endif
