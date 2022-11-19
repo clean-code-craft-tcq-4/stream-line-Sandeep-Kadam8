@@ -1,13 +1,14 @@
 #ifndef READ_CSV
 #define READ_CSV
 
+#include <string>
 #include <fstream>
 #include "SensorParameterList.h"
 
 namespace StreamLineSender {
-    class READ_CSV {
+    class ReadCSV {
     public:
-        READ_CSV(const std::string& filePath);
+        ReadCSV(const std::string& filePath);
     private:
         std::ifstream m_file;
     };
